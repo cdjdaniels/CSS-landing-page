@@ -4,8 +4,7 @@ body {
 }
 
 
-.header,
-.intro {
+.header {
     display: flex;
     justify-content: space-around;
     background-color: #1F2937;
@@ -14,21 +13,43 @@ body {
     align-items: center;
 }
 
+.logo {
+    font-size: 18px;
+}
+
 a {
     color: #F9FAF8;
     text-decoration: none;
     margin-left: 16px;
 }
 
+.hero {
+    min-height: 360px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 8px;
+}
+
 .left {
     max-width: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900px;
 }
 
 p {
-    font-weight: normal;
+   font-size: 18px;
+    margin-top: -8px;
+    color: #E5E7EB;
 }
 
 img {
-    max-width: 350px;
+    max-width: 400px;
 }
 
