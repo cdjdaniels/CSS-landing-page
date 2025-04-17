@@ -30,7 +30,7 @@ a {
     justify-content: space-evenly;
     background-color: #1F2937;
     color: #F9FAF8;
-    gap: 50px;
+    gap: 20px;
 }
 
 .left {
@@ -80,7 +80,23 @@ h2 {
 
 .photo-array {
     display: flex;
-    gap: 8px;
+    justify-content: center;
+    gap: 70px;
+}
+
+p {
     max-width: 150px;
-    margin-left: 500px;
+    font-size: 12px;
+}
+
+.image-1, 
+.image-2 {
+    border: 2px solid blue;
+    border-radius: 5px;
+}
+
+.image-3
+.image-4 {
+    border: 2px solid blue;
+    border-radius: 5px;
 }
