@@ -27,20 +27,19 @@ a {
 .hero {
     min-height: 360px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     background-color: #1F2937;
     color: #F9FAF8;
-    gap: 16px;
+    gap: 100px;
 }
 
 .left {
-    max-width: 325px;
+    max-width: 360px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     margin-top: 16px;
-    margin-left: 32px;
-    gap: 12px;
+    gap: 8px;
 }
 
 .right {
@@ -54,7 +53,7 @@ h1 {
 }
 
 p {
-   font-size: 18px;
+    font-size: 18px;
     margin-top: -8px;
     color: #E5E7EB;
 }
@@ -63,3 +62,12 @@ img {
     max-width: 400px;
 }
 
+button {
+    max-width: 80px;
+    background-color: #3882F6;
+    color: white;
+    border: 0;
+    border-radius: 4px;
+    padding: 4px;
+    margin-top: -8px;
+}
