@@ -15,6 +15,7 @@ body {
 
 .logo {
     font-size: 18px;
+    margin-top: 20px;
 }
 
 a {
@@ -29,18 +30,27 @@ a {
     justify-content: space-evenly;
     background-color: #1F2937;
     color: #F9FAF8;
-    padding: 8px;
+    gap: 16px;
 }
 
 .left {
-    max-width: 350px;
+    max-width: 325px;
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 16px;
+    margin-left: 32px;
+    gap: 12px;
+}
+
+.right {
+    margin-top: 16px;
 }
 
 h1 {
     font-size: 48px;
     font-weight: 900px;
+    margin: 0px;
 }
 
 p {
