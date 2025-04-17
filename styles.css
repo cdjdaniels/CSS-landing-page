@@ -4,8 +4,8 @@ body {
 }
 
 
-
-.header {
+.header,
+.intro {
     display: flex;
     justify-content: space-around;
     background-color: #1F2937;
@@ -19,3 +19,16 @@ a {
     text-decoration: none;
     margin-left: 16px;
 }
+
+.left {
+    max-width: 350px;
+}
+
+p {
+    font-weight: normal;
+}
+
+img {
+    max-width: 350px;
+}
+
