@@ -82,6 +82,7 @@ h2 {
     display: flex;
     justify-content: center;
     gap: 70px;
+    text-align: center;
 }
 
 p {
@@ -90,9 +91,10 @@ p {
 }
 
 img {
-    border: 5px solid #3882F6;
+    border: 2px solid #3882F6;
+    border-radius: 10px;
 }
 
 .right > img {
-    border; 0;
+    border: 0;
 }
