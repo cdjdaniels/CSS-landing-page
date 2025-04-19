@@ -9,13 +9,13 @@ body {
     justify-content: space-around;
     background-color: #1F2937;
     color: #F9FAF8;
-    font-weight: 900;
     align-items: center;
 }
 
 .logo {
     font-size: 18px;
-    margin-top: 20px;
+    font-weight: 900;
+    margin-left: 0px;
 }
 
 a {
